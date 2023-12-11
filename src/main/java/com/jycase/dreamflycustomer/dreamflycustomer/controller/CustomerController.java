@@ -5,13 +5,13 @@ import com.jycase.dreamflycustomer.dreamflycustomer.dto.CustomerQueryParams;
 import com.jycase.dreamflycustomer.dreamflycustomer.dto.CustomerRequest;
 import com.jycase.dreamflycustomer.dreamflycustomer.model.Customer;
 import com.jycase.dreamflycustomer.dreamflycustomer.service.CustomerService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 @Validated // MAX 跟 MIN的註解才會啟用
 @RestController

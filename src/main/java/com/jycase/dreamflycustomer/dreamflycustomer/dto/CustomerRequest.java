@@ -1,6 +1,7 @@
 package com.jycase.dreamflycustomer.dreamflycustomer.dto;
 
-import javax.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotBlank;
+
 import java.time.LocalDate;
 
 public class CustomerRequest {
